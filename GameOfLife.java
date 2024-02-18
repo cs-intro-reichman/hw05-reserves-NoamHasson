@@ -13,7 +13,7 @@ public class GameOfLife {
 		//// (Run one test at a time).
 		////test1(fileName);
 		////test2(fileName);
-		////test3(fileName, 3);
+		test3(fileName, 3);
 		 ///play(fileName);
 	}
 	
@@ -44,6 +44,7 @@ public class GameOfLife {
 			System.out.println("Generation " + gen + ":");
 			print(board);
 			board = evolve(board);
+			System.out.println();
 		}
 	}
 		
