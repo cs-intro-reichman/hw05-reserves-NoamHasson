@@ -168,9 +168,9 @@ public class GameOfLife {
 			for ( int j = 1; j < arr[0].length - 1; j++ ) {
 				System.out.printf("%3s" , arr[i][j]);
 			}
-			//if ( i !=arr.length - 2 ) {
-				//System.out.println();
-			//} 
+			if ( i !=arr.length - 2 ) {
+				System.out.println();
+			} 
 		}
 	}
 		
