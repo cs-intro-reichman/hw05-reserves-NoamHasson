@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "GameOfLife",
             "projectName": "hw05-reserves-NoamHasson_97c31f1e",
-            "args": "line.dat"
+            "args": ""
         },
         {
             "type": "java",
