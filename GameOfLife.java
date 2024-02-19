@@ -13,8 +13,8 @@ public class GameOfLife {
 		//// (Run one test at a time).
 		////test1(fileName);
 		////test2(fileName);
-		////test3(fileName, 3);
-		play(fileName);
+		test3(fileName, 3);
+		////play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.
@@ -44,7 +44,6 @@ public class GameOfLife {
 			System.out.println("Generation " + gen + ":");
 			print(board);
 			board = evolve(board);
-			System.out.println();
 		}
 	}
 		
@@ -168,9 +167,9 @@ public class GameOfLife {
 			for ( int j = 1; j < arr[0].length - 1; j++ ) {
 				System.out.printf("%3s" , arr[i][j]);
 			}
-			if ( i !=arr.length - 2 ) {
+			//if ( i !=arr.length - 2 ) { 
 				System.out.println();
-			} 
+			//} 
 		}
 	}
 		
